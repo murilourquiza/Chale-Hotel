@@ -1,0 +1,82 @@
+/* Formatação Geral */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Helvetica, "Trebuchet MS", sans-serif;
+    background: #fff url('../imagens/bg.png');
+}
+
+#cabecalho {
+    width: 90%;
+    max-width: 1195px;
+    min-width: 740px;
+    height: 250px;
+    margin: 0 auto;
+    background: url('../imagens/topo-imagem-principal.png') no-repeat;
+    margin-top: 10px;
+}
+
+#cabecalho-esquerdo img {
+    margin: 15px;
+    float: left;
+}
+
+#cabecalho-direito {
+    width: 459px;
+    height: 250px;
+    float: right;
+    background: url(../imagens/topo-imagem-lateral.png);
+}
+
+#localidades-topo {
+    margin: 15px 15px 15px 80px;
+    border-top: 1px solid #b5ab56;
+    border-bottom: 1px solid #b5ab56;
+}
+
+#cidades-localidades-topo {
+    margin: 10px 0;
+    display: inline-block; 
+    font-size: 0.75em;
+    color: #8b8448;
+}
+
+#reservar-localidades-topo {
+    float: right;
+    margin: 5px 0;
+    padding: 4px 8px;
+    background-color: #a29750;
+    color: #fff5b0;
+    font-weight: 550;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+#menu-topo {
+    margin-left: 80px;
+    float: left;
+}
+
+#menu-topo li {
+    margin: 5px 0 12px 10px;
+    font-size: 0.95em;
+}
+
+#menu-topo a {
+    color: #6e672c;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+#menu-topo a:hover {
+    color: #fdf6be;
+}
+
+#depoimento-topo {
+    margin-right: 15px;
+    float: right;
+}
