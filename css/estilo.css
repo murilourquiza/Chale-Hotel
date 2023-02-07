@@ -15,7 +15,7 @@ body {
     max-width: 1195px;
     min-width: 740px;
     height: 250px;
-    margin: 0 auto;
+    margin: 0px auto;
     background: url('../imagens/topo-imagem-principal.png') no-repeat;
     margin-top: 10px;
 }
@@ -79,4 +79,74 @@ body {
 #depoimento-topo {
     margin-right: 15px;
     float: right;
+}
+
+#conteudo {
+    width: 90%;
+    max-width: 1195px;
+    min-width: 740px;
+    margin: 0 auto;
+    background: #ede9cc url('../imagens/bg-container.png') top center repeat-y;
+}
+
+#conteudo-esquerda {
+    font-size: 0.95em;
+    float: left;
+    width: 50%;
+    background: url('../imagens/bg-area-principal.png') top left repeat-x;
+}
+
+#conteudo-esquerda h3 {
+    padding: 25px 25px 0px 25px;
+    color: #7d7640;
+    font-size: 1.1em;
+}
+
+#conteudo-esquerda p {
+    padding: 10px 25px 0px 25px;
+}
+
+#conteudo-direita {
+    float: right;
+    width: 50%;
+    background: url('../imagens/bg-area-lateral.png') top left repeat-x;
+}
+
+#lista-conteudo-direita li {
+    height: 6em;
+    padding: 15px;
+    border-bottom: 1px solid #f3efcb;
+}
+
+#lista-conteudo-direita li a {
+    text-decoration: none;
+}
+
+#lista-conteudo-direita li a img {
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+}
+
+#lista-conteudo-direita li a h3{
+    color: #615b2d;
+    padding: 5px 0;
+    background: url('../imagens/ornamento.png') no-repeat center right;
+}
+
+#lista-conteudo-direita li a p{
+    font-size: 0.8em;
+    color: #000;
+}
+
+#lista-conteudo-direita li:hover {
+    background: #f6f3d6;
+    cursor: pointer;
+}
+
+#rodape {
+    clear: both;
+    padding: 10px;
+    background: #fff url('../imagens/bg-rodape.png') repeat-x top;
+    color: #7d7640;
 }
